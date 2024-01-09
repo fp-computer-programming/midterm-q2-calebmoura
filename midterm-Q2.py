@@ -5,7 +5,7 @@ import random
 
 # define words chosen and return into system.
 def choose_random_word():
-    words = ["Ball", "Club", "Spider", "Team", "Friend", "Nominee", "Host"]
+    words = ["ball", "club", "spider", "team", "friend", "nominee", "host"]
     return random.choice(words)
 
 # define and set display for letters of words guessed.
